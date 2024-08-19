@@ -1,0 +1,18 @@
+.sidenav{
+    background-color: #3f5185;
+    width: 200px;
+}
+
+.sidenav i{
+    padding: 0 10px 0 0;
+}
+
+.conteudo{
+    padding: 10px;
+    background-color: #fff;
+}
+
+/* sobrescreve cor link dos menus */
+.mat-mdc-list-base {
+    --mdc-list-list-item-label-text-color: rgb(253 250 250 / 87%);
+}

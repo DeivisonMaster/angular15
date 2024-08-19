@@ -1,0 +1,9 @@
+.home .titulo{
+    font-size: 1.5rem;  /* se baseia na fonte raiz */
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+.home .subtitulo{
+    font-size: 1.1em; /* se baseia na rem */
+}

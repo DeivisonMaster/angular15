@@ -1,0 +1,12 @@
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+.campos{
+    color: #777272;
+}
+
+button{
+    margin: 5px 10px 0 0;
+}

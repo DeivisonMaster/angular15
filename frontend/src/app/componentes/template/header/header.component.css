@@ -1,0 +1,19 @@
+.cabecalho{
+    display: flex;
+    align-items: center;
+}
+
+.cabecalho a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.cabecalho .logo{
+    max-height: 32px;
+    min-width: 150px;
+}
+
+.cabecalho .grupo-titulo a i{
+    padding: 0 5px 0 25px;
+}

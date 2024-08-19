@@ -1,0 +1,25 @@
+<mat-card>
+    <mat-card-title>Excluir Produto</mat-card-title>
+    <mat-card-subtitle>Deseja realmente excluir o Produto: {{ produto.id }} ?</mat-card-subtitle>
+    <form>
+        <mat-form-field>
+            <input matInput placeholder="Descrição" [value]="produto.nome" name="nome" disabled class="campos">
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="Valor (R$)" [value]="produto.preco" name="preco" disabled class="campos">
+        </mat-form-field>
+    </form>
+</mat-card>
+
+<button mat-raised-button (click)="excluir()" color="accent">
+    Excluir
+</button>
+<!-- 
+<button mat-raised-button (click)="dlgExclusao('0ms', '0ms')" color="accent">
+    Excluir
+</button>
+-->
+
+<button mat-raised-button (click)="cancelar()">
+    Cancelar
+</button>

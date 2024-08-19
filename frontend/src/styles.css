@@ -1,0 +1,15 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.vermelho{
+    color: rgb(227, 94, 107); vertical-align: middle;
+}
+
+ .mat-snack-bar-container.warning { background-color: red !important}
+
+ .mat-mdc-snack-bar-container{
+    --mdc-snackbar-container-color: #4cb840 !important;
+    --mdc-snackbar-supporting-text-color: #fff !important;
+ }
